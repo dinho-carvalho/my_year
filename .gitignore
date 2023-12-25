@@ -20,3 +20,9 @@
 # Go workspace file
 go.work
 .history
+
+
+# Common IDE folders
+.idea
+.vscode
+.DS_Store
