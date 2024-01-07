@@ -17,7 +17,7 @@ type (
 	}
 )
 
-func NewUseCase(gateway interfaces.StorageGateway) UseCase {
+func NewUseCase(gateway interfaces.StorageGateway) *UseCaseImpl {
 	return &UseCaseImpl{Gateway: gateway}
 }
 
